@@ -8,6 +8,55 @@
     <script src="script.js"></script> 
 </head>
 <body>
-    
+    <!--heron's formula-->
+    <div class="heron">
+        <h1 class="formulaTitle">Heron's Formula</h1>
+        <label>Side A:</label>
+        <input type="text" id="heronA" name="heronA">
+        <label>Side B:</label>
+        <input type="text" id="heronB" name="heronB">
+        <label>Side C:</label>
+        <input type="text" id="heronC" name="heronC">
+        <label>Area (Result):</label>
+        <input type="text" id="heronArea" name="heronArea" readOnly>
+        <button type="submit">Calculate</button>
+    </div>
+    <!--ambiguous case-->
+    <div class="ambCase">
+        <h1 class="formulaTitle">Ambiguous Case</h1>
+        <label>Angle A:</label>
+        <input type="text" id="ambA" name="ambA">
+        <label>Side B:</label>
+        <input type="text" id="ambB" name="ambB">
+        <label>Side C:</label>
+        <input type="text" id="ambC" name="ambC">
+        <label>Triangle Type (Result):</label>
+        <input type="text" id="ambType" name="ambType" readOnly>
+        <button type="submit">Calculate</button>
+    </div>
+    <!--newton's method-->
+    <div class="newton">
+        <h1 class="formulaTitle">Newton's Method</h1>
+        <label>Root Guess:</label>
+        <input type="text" id="newRoot" name="newRoot">
+        <label>Root Approximation (Result):</label>
+        <input type="text" id="newApp" name="newApp" readOnly>
+        <button type="submit">Calculate</button>
+    </div>
+    <!--polynomial function-->
+    <div class="polynomail">
+        <h1 class="formulaTitle">Polynomial Function</h1>
+        <label>Coefficients:</label>
+        <input type="text" id="polyCo" name="polyCo">
+        <label>Exponents:</label>
+        <input type="text" id="polyExp" name="polyExp">
+        <label>x Value:</label>
+        <input type="text" id="polyX" name="polyX">
+        <label>Polynomial Function:</label>
+        <input type="text" id="polyFun" name="polyFun" readOnly>
+        <label>Polynomial Evaluation:</label>
+        <input type="text" id="polyEva" name="polyEva" readOnly>
+        <button type="submit">Calculate</button>
+    </div>
 </body>
 </html>
